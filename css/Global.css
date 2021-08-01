@@ -1,0 +1,30 @@
+body {
+    background-color: #f7f7f7;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    /* For Firefox */
+    -ms-overflow-style: none;
+    /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+    /* For Chrome, Safari, and Opera */
+}
+
+.text-center {
+    text-align: center;
+}
+
+a.navBar {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+th {
+    font-weight: normal;
+}
