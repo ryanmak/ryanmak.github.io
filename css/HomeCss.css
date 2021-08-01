@@ -29,7 +29,11 @@ img.pfpic {
     background-color: #fcfcfc;
     border-radius: 25px;
     width: fit-content;
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
     margin-top: 12%;
+}
+
+relative {
+    position: relative;
 }
