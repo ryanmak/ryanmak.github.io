@@ -1,3 +1,7 @@
+body{
+    background-color: #f7f7f7;
+}
+
 a.navBar {
     color: black;
     text-decoration: none;
@@ -34,6 +38,6 @@ img.pfpic {
     margin-top: 12%;
 }
 
-relative {
-    position: relative;
-}
+html {
+    scroll-behavior: smooth;
+  }
