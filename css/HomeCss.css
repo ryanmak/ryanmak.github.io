@@ -1,0 +1,35 @@
+a.navBar {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+th {
+    font-weight: normal;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+img.pfpic {
+    display: block;
+    max-width: 250px;
+    height: 225px;
+}
+
+.card-light {
+    background-color: #fcfcfc;
+    border-radius: 25px;
+    width: fit-content;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 12%;
+}
