@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="../css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/Global.css">
     <link rel="stylesheet" href="../css/ResumeCss.css">
+    <script type="text/javascript" src="../javascript/ResumeJs.js"></script>
 </header>
 
 <body>
-    <main style="margin-left: 8%; margin-right: 8%;">
+    <main>
         <div name="navBar" class="mt-4">
             <table class="table text-center">
                 <tr>
@@ -20,6 +21,81 @@
                     <th> <a class="navBar" href="contact.html">CONTACT</a></th>
                 </tr>
             </table>
+        </div>
+        <br>
+        <h3>Past work experience</h3>
+        <br>
+
+        <div class="d-flex flex-row flex-nowrap overflow-auto justify-content-center">
+            <div class="card mx-3" style="width: 23rem; border-radius: 10px;">
+                <img src="../res/fiix-rockwell-automation.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Fiix Software | Feb 2019 - Present</h5>
+                    <h6 class="card-title">Team Mobile - Android Developer</h6>
+                    <p class="card-text">I worked on the Fiix CMMS Android app using Java/Kotlin with MVVM architecture.
+                        Using JIRA, I built features, fixed bugs, investigated spikes and wrote unit/espresso tests.
+                    </p>
+                    <br><br>
+                    <a href="#resume" class="btn btn-primary" onClick="moreDetailsClick('fiix')">More details</a>
+                </div>
+            </div>
+
+            <div class="card mx-3" style="width: 23rem; border-radius: 10px;">
+                <img src="../res/namsys_og_default.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Namsys | May 2018 - Jan 2020</h5>
+                    <h6 class="card-title">Cirreon CIT - Software Developer</h6>
+                    <p class="card-text">I initally worked on the Cirreon web app using Java with Vaadin. I
+                        then started working on builing/modernizing features on the Android app using Java and MVC.</p>
+                    <br><br>
+                    <a href="#resume" class="btn btn-primary" onClick="moreDetailsClick('namsys')">More details</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="resume" style="margin-top: 25%; display:none">
+            <table id="resume-list">
+            </table>
+        </div>
+
+        <div id="resume-fiix" style="display: none;">
+            <table>
+                <tr>
+                    <th>
+                        <h2>Fiix Software | February 2019 - Present</h2>
+                    </th>
+                    <th>
+                        <button type="button" class="btn-close" aria-label="Close" onClick="closethis('resume-fiix')"></button>
+                    </th>
+                </tr>
+            </table>
+
+            <h4>Team Mobile - Android Developer</h4>
+            <p> FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX
+                FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX
+                FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX
+                FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX FIIX
+            </p>
+        </div>
+
+        <div id="resume-namsys" style="display: none;">
+            <table>
+                <tr>
+                    <th>
+                        <h2>Namsys | May 2018 - Jan 2020</h2>
+                    </th>
+                    <th>
+                        <button type="button" class="btn-close" aria-label="Close" onClick="closethis('resume-namsys')"></button>
+                    </th>
+                </tr>
+            </table>
+            <h3>Cirreon CIT - Software Developer</h3>
+            <p> NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS
+                NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS
+                NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS
+                NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS
+                NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS NAMSYS
+            </p>
         </div>
     </main>
 </body>

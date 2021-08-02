@@ -10,6 +10,11 @@ html {
     /* For Internet Explorer and Edge */
 }
 
+main {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
 html::-webkit-scrollbar {
     width: 0px;
     /* For Chrome, Safari, and Opera */
