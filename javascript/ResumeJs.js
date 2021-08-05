@@ -37,7 +37,7 @@ function closethis(id) {
     for (var i = 0, row; row = table.rows[i]; i++) {
         console.log(row)
         if (row.id == id) {
-            table.deleteRow(i)
+            
             break
         }
     }
