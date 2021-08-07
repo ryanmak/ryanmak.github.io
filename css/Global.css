@@ -34,6 +34,12 @@ th {
     font-weight: normal;
 }
 
+.card-light {
+    border-radius: 25px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 /* The container <div> - needed to position the dropdown content */
 
 .dropdown {

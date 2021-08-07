@@ -10,12 +10,3 @@ img.pfpic {
     max-width: 250px;
     height: 225px;
 }
-
-.card-light {
-    background-color: #fcfcfc;
-    border-radius: 25px;
-    width: fit-content;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 12%;
-}
