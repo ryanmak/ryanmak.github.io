@@ -1,0 +1,25 @@
+a.thing {
+    color: black;
+    text-decoration: none;
+}
+
+a.thing:hover {
+    color: steelblue
+}
+
+.card .card-thing {
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.border-bottom {
+    border: 1px;
+    border-bottom: black;
+}
+
+img {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
