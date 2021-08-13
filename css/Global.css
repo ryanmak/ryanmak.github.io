@@ -30,6 +30,10 @@ a.navBar {
     font-weight: bold;
 }
 
+a.navBar:hover {
+    color: steelblue;
+}
+
 th {
     font-weight: normal;
 }
